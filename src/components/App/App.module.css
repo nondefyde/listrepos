@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background: #f2f2f2;
+    /*padding: 20px;*/
+    font-family: Quicksand -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+
+.App .tableContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+.App .tableContainer .tableWrapper {
+    width: 65vw;
+    height: 750px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.App .tableContainer .tableWrapper .tableHeader {
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+.App .tableContainer .tableWrapper .tableHeaderTitle {
+    font-size: 25px;
+}
+
+.App .tableContainer .tableWrapper .alertBody{
+    width: 100%;
+    padding-bottom: 30px;
+}

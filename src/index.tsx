@@ -4,7 +4,7 @@ import AppComponent from './components/App/App';
 
 ReactDOM.render(
     <React.StrictMode>
-        <AppComponent/>
+        <AppComponent username="nondefyde"/>
     </React.StrictMode>,
     document.getElementById('root')
 );

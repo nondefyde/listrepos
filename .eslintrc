@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "react": {
+        "version": "detect"
+    }
+},
+  "extends": ["plugin:react/recommended", "prettier", "prettier/react"],
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "react/display-name": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/no-unescaped-entities": 0,
+    "react/no-array-index-key": 0,
+    "react/prop-types": 0,
+    "no-underscore-dangle": 0,
+    "no-unneeded-ternary": "error",
+    "semi": ["error", "always"],
+    "arrow-parens": ["error", "as-needed"],
+    "indent": [
+      "error",
+      2,
+      { "SwitchCase": 1, "flatTernaryExpressions": true }
+    ]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true,
+    "console": true
+  },
+  "parser": "babel-eslint"
+}
